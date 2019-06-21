@@ -2,7 +2,7 @@
 It is difficult to take the first step when you look, how big the task is.
 But remember, you don’t try to build a wall.
 You don’t say:<br>
-> Im gonna build the biggest, baddest, greatest wall thats  ever been built" <br>
+> ~~ Im gonna build the biggest, baddest, greatest wall thats  ever been built. ~~ <br>
  
 You dont start there. You say: <br>
 
