@@ -1,0 +1,60 @@
+{
+  "_source": {
+    "raw_pcap": "/../../processed_reports/06ea9987e951a72224a075cb404683b92d301e25_raw_pcap.txt",
+    "timestamp": "2011-07-08T03:23:42.000Z",
+    "language": "",
+    "dr_web": "Trojan.KillProc.24815",
+    "microsoft_security_essentials": "Trojan:Win32/Popureb.B",
+    "dns": 1,
+    "rising": "Trojan.Win32.Generic.1495BFB5",
+    "k7": "Backdoor ( 04c513e61 )",
+    "strings": "/../../processed_reports/06ea9987e951a72224a075cb404683b92d301e25_strings.txt",
+    "frisk": "W32/Pedo.A.gen!Eldorado",
+    "malwarebytes": "Trojan.Agent.SEPC",
+    "virusblokada": "Trojan.Scar",
+    "alwil": "Malware-gen:Poison-KL [Trj]:Win32:Malware-gen",
+    "fortinet": "W32/Scar.EJKJ!tr",
+    "sha1": "06ea9987e951a72224a075cb404683b92d301e25",
+    "authentium": "W32/Pedo.A.gen!Eldorado",
+    "winsock_dns": 1,
+    "trend_micro": "TROJ_POPUREB.SM",
+    "services_started": 0,
+    "files_deleted": 0,
+    "cat": "Trojan.Popureb.B4",
+    "analysis_date": "2015-02-26T12:18:36.000Z",
+    "symantec": "no_virus",
+    "processes_created": 1,
+    "ad_aware": "Gen:Variant.Graftor.169836",
+    "arcabit": "Gen:Variant.Graftor.169836",
+    "ikarus": "Trojan.Win32.Popureb",
+    "eset": "Win32/Ghodow.NAL",
+    "360_safe": "no_virus",
+    "microworld": "Gen:Variant.Graftor.169836",
+    "file_type": "PE32 executable for MS Windows (GUI) Intel 80386 32-bit",
+    "clamav": "no_virus",
+    "bullguard": "Gen:Variant.Graftor.169836",
+    "flows_tcp": 93,
+    "mcafee": "Error Scanning File",
+    "registries": 4,
+    "mutexes_created": 6,
+    "files_created": 12,
+    "avira": "TR/Popureb.B.27",
+    "services_created": 0,
+    "emsisoft": "Gen:Variant.Graftor.169836",
+    "http_post": 0,
+    "sophos": "Mal/Behav-116",
+    "kaspersky": "Trojan.Win32.Scar.ejkj",
+    "grisoft": "Generic33.IEB",
+    "ca": "Win32/Popureb.JHFXCH",
+    "http_get": 93,
+    "f_secure": "Gen:Variant.Graftor.169836"
+  },
+  "fields": {
+    "analysis_date": [
+      "2015-02-26T12:18:36.000Z"
+    ],
+    "timestamp": [
+      "2011-07-08T03:23:42.000Z"
+    ]
+  }
+}

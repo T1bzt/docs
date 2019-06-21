@@ -1,0 +1,60 @@
+{
+  "_source": {
+    "raw_pcap": "/../../processed_reports/06e11e47ec294373a2cbd252eec9967d9d6ef9bd_raw_pcap.txt",
+    "timestamp": "2014-12-25T08:40:48.000Z",
+    "language": "080404B0",
+    "dr_web": "no_virus",
+    "microsoft_security_essentials": "no_virus",
+    "dns": 0,
+    "rising": "no_virus",
+    "k7": "Error Scanning File",
+    "strings": "/../../processed_reports/06e11e47ec294373a2cbd252eec9967d9d6ef9bd_strings.txt",
+    "frisk": "W32/Agent.EW.gen!Eldorado",
+    "malwarebytes": "Trojan.FlyStudio",
+    "virusblokada": "no_virus",
+    "alwil": "no_virus",
+    "fortinet": "Riskware/FlyStudio",
+    "sha1": "06e11e47ec294373a2cbd252eec9967d9d6ef9bd",
+    "authentium": "W32/Agent.EW.gen!Eldorado",
+    "winsock_dns": 0,
+    "trend_micro": "no_virus",
+    "services_started": 0,
+    "files_deleted": 0,
+    "cat": "no_virus",
+    "analysis_date": "2015-01-27T04:47:31.000Z",
+    "symantec": "no_virus",
+    "processes_created": 0,
+    "ad_aware": "Gen:Variant.Zusy.105521",
+    "arcabit": "Gen:Variant.Zusy.105521",
+    "ikarus": "no_virus",
+    "eset": "no_virus",
+    "360_safe": "no_virus",
+    "microworld": "Gen:Variant.Zusy.105521",
+    "file_type": "PE32 executable for MS Windows (GUI) Intel 80386 32-bit",
+    "clamav": "no_virus",
+    "bullguard": "Gen:Variant.Zusy.105521",
+    "flows_tcp": 0,
+    "mcafee": "no_virus",
+    "registries": 0,
+    "mutexes_created": 0,
+    "files_created": 0,
+    "avira": "TR/Rogue.gtpsu",
+    "services_created": 0,
+    "emsisoft": "Gen:Variant.Zusy.105521",
+    "http_post": 0,
+    "sophos": "no_virus",
+    "kaspersky": "no_virus",
+    "grisoft": "Win32/Ramnit.A",
+    "ca": "no_virus",
+    "http_get": 0,
+    "f_secure": "Gen:Variant.Zusy.105521"
+  },
+  "fields": {
+    "analysis_date": [
+      "2015-01-27T04:47:31.000Z"
+    ],
+    "timestamp": [
+      "2014-12-25T08:40:48.000Z"
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "_source": {
+    "raw_pcap": "/../../processed_reports/06e8adc85674da435b02297e4892fb693f70aead_raw_pcap.txt",
+    "timestamp": "2008-08-30T10:08:02.000Z",
+    "language": "1C12C134",
+    "dr_web": "Trojan.DownLoad3.33795",
+    "microsoft_security_essentials": "no_virus",
+    "dns": 6,
+    "rising": "no_virus",
+    "k7": "Riskware ( 0040eff71 )",
+    "strings": "/../../processed_reports/06e8adc85674da435b02297e4892fb693f70aead_strings.txt",
+    "frisk": "W32/Trojan3.JRK",
+    "malwarebytes": "Trojan.Downloader",
+    "virusblokada": "Hoax.Cryptodef",
+    "alwil": "Agent-AUID [Trj]",
+    "fortinet": "W32/Kryptik.GKA!tr",
+    "sha1": "06e8adc85674da435b02297e4892fb693f70aead",
+    "authentium": "W32/Trojan.FIMG-8645",
+    "winsock_dns": 7,
+    "trend_micro": "TROJ_UPATRE.SM01",
+    "services_started": 0,
+    "files_deleted": 0,
+    "cat": "TrojanDownloader.Upatre.AM4",
+    "analysis_date": "2015-02-07T11:03:19.000Z",
+    "symantec": "Trojan.Cryptodefense",
+    "processes_created": 1,
+    "ad_aware": "Trojan.Downloader.CryptoLocker.A",
+    "arcabit": "Trojan.Downloader.CryptoLocker.A",
+    "ikarus": "Trojan.Win32.Kryptik",
+    "eset": "Win32/TrojanDownloader.Waski.F",
+    "360_safe": "no_virus",
+    "microworld": "Trojan.Downloader.CryptoLocker.A",
+    "file_type": "PE32 executable for MS Windows (GUI) Intel 80386 32-bit",
+    "clamav": "Win.Trojan.Downloader-62992",
+    "bullguard": "Trojan.Downloader.CryptoLocker.A",
+    "flows_tcp": 496,
+    "mcafee": "Downloader-FSH!03E3DAB19007",
+    "registries": 3,
+    "mutexes_created": 4,
+    "files_created": 7,
+    "avira": "TR/Dldr.Waski.bcde",
+    "services_created": 0,
+    "emsisoft": "Trojan.Downloader.CryptoLocker.A",
+    "http_post": 0,
+    "sophos": "Troj/Upatre-DO",
+    "kaspersky": "Trojan.Win32.Generic",
+    "grisoft": "Crypt3.AHQZ",
+    "ca": "Win32/Upatre.cZBBCDD",
+    "http_get": 494,
+    "f_secure": "Trojan-Downloader:W32/Upatre.I"
+  },
+  "fields": {
+    "analysis_date": [
+      "2015-02-07T11:03:19.000Z"
+    ],
+    "timestamp": [
+      "2008-08-30T10:08:02.000Z"
+    ]
+  }
+}

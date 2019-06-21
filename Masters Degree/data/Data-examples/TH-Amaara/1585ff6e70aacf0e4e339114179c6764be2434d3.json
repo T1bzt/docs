@@ -1,0 +1,192 @@
+{
+  "_source": {
+    "analysis_date": "2015-05-08 08:04:44",
+    "md5": "f30726be419cdd62069003ed43ece857",
+    "sha1": "1585ff6e70aacf0e4e339114179c6764be2434d3",
+    "static": {
+      "file_type": "PE32 executable for MS Windows (GUI) Intel 80386 32-bit",
+      "section": [
+        {
+          "name": ".text",
+          "md5": "484186a982c8b370a92ef024dcc1aa75",
+          "sha1": "7c141bcb201cc744b611ce57168221cec5116806",
+          "size": 179200
+        },
+        {
+          "name": ".rdata",
+          "md5": "7e0c9a677053af7d14e78795e40c9531",
+          "sha1": "68b6c55483a0db472e913f6862552bd7c44c64b1",
+          "size": 512
+        },
+        {
+          "name": ".data",
+          "md5": "d41d8cd98f00b204e9800998ecf8427e",
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0
+        },
+        {
+          "name": ".rsrc",
+          "md5": "cc88ddcb5c34252f2d547a98a96c32c3",
+          "sha1": "4297ca8e849bb7b1a922bba9290d32e3d9a1a6d0",
+          "size": 512
+        },
+        {
+          "name": ".reloc",
+          "md5": "19a976742256e3c4b793b9d97cf9961a",
+          "sha1": "fd1bca720b6f4b0c849643dcc2f7b4f4d2eaed67",
+          "size": 512
+        }
+      ],
+      "timestamp": "2014-06-19 21:48:06",
+      "pehash": "8b45f97da0bc15cd5e535beb31d518408b896c9a",
+      "imphash": "b85f7741a49f0e564ff0742d092b0400",
+      "av": {
+        "ad_aware": "Gen:Variant.Kazy.580542",
+        "alwil_(avast)": "Malware-gen:Win32:Malware-gen",
+        "arcabit_(arcavir)": "Gen:Variant.Kazy.580542",
+        "authentium": "W32/S-2a1f4e10!Eldorado",
+        "avira_(antivir)": "TR/Crypt.ZPACK.Gen",
+        "bitdefender": "Gen:Variant.Kazy.580542",
+        "bullguard": "Gen:Variant.Kazy.580542",
+        "ca_(e_trust_ino)": "no_virus",
+        "cat_(quickheal)": "no_virus",
+        "clamav": "no_virus",
+        "dr__web": "Trojan.Inject1.53764",
+        "emsisoft": "Gen:Variant.Kazy.580542",
+        "eset_(nod32)": "Win32/Kryptik.DCNW",
+        "fortinet": "W32/Kryptik.DCNW!tr",
+        "frisk_(f_prot)": "no_virus",
+        "f_secure": "Gen:Variant.Kazy.580542",
+        "grisoft_(avg)": "Agent_r.CAE",
+        "ikarus": "Trojan.Win32.Crypt",
+        "k7": "Trojan ( 0040fa661 )",
+        "kaspersky": "Virus.Win32.PolyRansom.c",
+        "malwarebytes": "no_virus",
+        "mcafee": "Trojan-FGBQ!F30726BE419C",
+        "microsoft_security_essentials": "Virus:Win32/Ursnif.gen!B",
+        "microworld_(escan)": "Gen:Variant.Kazy.580542",
+        "padvish": "no_virus",
+        "rising": "Trojan.Win32.Kryptik.z",
+        "sophos": "W32/MPhage-B",
+        "symantec": "W32.Tempedreve",
+        "trend_micro": "PE_URSNIF.E-O",
+        "twister": "W32.PolyRansom.c.xcit.mg",
+        "virusblokada_(vba32)": "SScope.Trojan.FakeAV.01681"
+      }
+    },
+    "runtime": {
+      "screenshot": "/screenshot/b2c6c02bcec05be68cd78009d57fe380421a933b.jpg",
+      "process": [
+        {
+          "executable": "C:\\malware.exe",
+          "registry": [
+            {
+              "key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\cmstipv6",
+              "value": "C:\\Documents and Settings\\Administrator\\Application Data\\caclrcp\\autooute.exe"
+            }
+          ],
+          "creates_file": [
+            "C:\\WINDOWS\\system32\\notestrt.exe",
+            "C:\\Documents and Settings\\Administrator\\Local Settings\\Temp\\384d_appcompat.txt",
+            "PIPE\\lsarpc",
+            "C:\\Documents and Settings\\Administrator\\Application Data\\caclrcp\\autooute.exe"
+          ],
+          "creates_process": [
+            "C:\\WINDOWS\\system32\\dwwin.exe -x -s 200",
+            "C:\\Documents and Settings\\Administrator\\Application Data\\caclrcp\\autooute.exe",
+            "C:\\WINDOWS\\system32\\drwtsn32 -p 1340 -e 168 -g"
+          ],
+          "creates_service": [
+            "Windows Protection - C:\\WINDOWS\\system32\\notestrt.exe -k"
+          ],
+          "starts_service": [
+            "spsrv"
+          ]
+        },
+        {
+          "executable": "C:\\Documents and Settings\\Administrator\\Application Data\\caclrcp\\autooute.exe",
+          "creates_file": [
+            "C:\\Documents and Settings\\Administrator\\Local Settings\\Temp\\~1.tmp"
+          ],
+          "deletes_file": [
+            "C:\\Documents and Settings\\Administrator\\Local Settings\\Temp\\~1.tmp"
+          ],
+          "creates_process": [
+            "C:\\Documents and Settings\\Administrator\\Local Settings\\Temp\\~1.tmp"
+          ]
+        },
+        {
+          "executable": "C:\\WINDOWS\\system32\\notestrt.exe",
+          "creates_file": [
+            "pipe\\net\\NtControlPipe10",
+            "PIPE\\lsarpc",
+            "C:\\WINDOWS\\TEMP\\~2.tmp"
+          ],
+          "deletes_file": [
+            "C:\\WINDOWS\\TEMP\\~2.tmp"
+          ],
+          "creates_process": [
+            "C:\\WINDOWS\\TEMP\\~2.tmp"
+          ]
+        },
+        {
+          "executable": "C:\\WINDOWS\\system32\\svchost.exe"
+        },
+        {
+          "executable": "Pid 856"
+        },
+        {
+          "executable": "C:\\WINDOWS\\System32\\svchost.exe",
+          "creates_file": [
+            "C:\\WINDOWS\\system32\\WBEM\\Logs\\wbemess.log"
+          ]
+        },
+        {
+          "executable": "Pid 1116"
+        },
+        {
+          "executable": "Pid 1212"
+        },
+        {
+          "executable": "C:\\WINDOWS\\system32\\spoolsv.exe"
+        },
+        {
+          "executable": "Pid 1864"
+        },
+        {
+          "executable": "Pid 1140"
+        },
+        {
+          "executable": "C:\\WINDOWS\\system32\\dwwin.exe -x -s 200"
+        },
+        {
+          "executable": "C:\\WINDOWS\\system32\\drwtsn32 -p 1340 -e 168 -g"
+        },
+        {
+          "executable": "C:\\Documents and Settings\\Administrator\\Local Settings\\Temp\\~1.tmp"
+        },
+        {
+          "executable": "C:\\WINDOWS\\TEMP\\~2.tmp"
+        },
+        {
+          "executable": "C:\\WINDOWS\\Explorer.EXE",
+          "creates_file": [
+            "C:\\temp.exe"
+          ]
+        }
+      ]
+    },
+    "network": {},
+    "other": {},
+    "raw_pcap": "",
+    "strings": "\n\n;\";,;2;\n3<eRich\n8_^][Y\n989r9*:2:=:E:\n</assembly>\n<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>\nCloseHandle\nCreateFileW\nD$0PUSV\n@.data\nGetCurrentProcess\nGetFileSize\nGetModuleFileNameW\nGetModuleHandleA\nGetProcAddress\nGetProcessHeap\nHeapAlloc\nHeapFree\nKERNEL32\nKERNEL32.dll\nLoadLibraryA\n`.rdata\nReadFile\n@.reloc\n        <requestedExecutionLevel level='asInvoker' uiAccess='false' />\n      </requestedPrivileges>\n      <requestedPrivileges>\n    </security>\n    <security>\nTerminateProcess\n!This program cannot be run in DOS mode.\n  </trustInfo>\n  <trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v3\">\nVirtualAlloc\nVirtualFree\n<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n"
+  },
+  "fields": {
+    "static.timestamp": [
+      "2014-06-19T21:48:06.000Z"
+    ],
+    "analysis_date": [
+      "2015-05-08T08:04:44.000Z"
+    ]
+  }
+}

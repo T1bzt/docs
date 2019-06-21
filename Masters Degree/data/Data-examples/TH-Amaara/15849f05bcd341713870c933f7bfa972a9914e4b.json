@@ -1,0 +1,166 @@
+{
+  "_source": {
+    "analysis_date": "2013-10-28 16:42:20",
+    "md5": "b80cca23e8f5c413c413d6bdc1582135",
+    "sha1": "15849f05bcd341713870c933f7bfa972a9914e4b",
+    "static": {
+      "file_type": "PE32 executable for MS Windows (GUI) Intel 80386 32-bit",
+      "language": "080904b0 ",
+      "section": [
+        {
+          "name": "UPX0",
+          "md5": "d41d8cd98f00b204e9800998ecf8427e",
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "size": 0
+        },
+        {
+          "name": "UPX1",
+          "md5": "2b7bc0d105695e5c7d54b0420f222300",
+          "sha1": "67e9ec2bba8bf3f0b57db53390d35c7930f66ded",
+          "size": 267776
+        },
+        {
+          "name": ".rsrc",
+          "md5": "d78d62b2379686bf69c5416d404978a6",
+          "sha1": "718ae1d7b2ae207cecdd6dc1aa10ed654a5bca0e",
+          "size": 103936
+        }
+      ],
+      "timestamp": "2011-09-11 18:12:22",
+      "version": [
+        {
+          "key": "compiledscript",
+          "value": " AutoIt v3 Script: 3, 3, 7, 15"
+        },
+        {
+          "key": "fileversion",
+          "value": " 3, 3, 7, 15"
+        },
+        {
+          "key": "filedescription",
+          "value": ""
+        }
+      ],
+      "packer": [
+        "UPX -> www.upx.sourceforge.net"
+      ],
+      "pehash": "68a776045f1f3cd748388db973fe7ee0d22140cd",
+      "av": {
+        "clamav": "Win.Trojan.Rootkit-4532",
+        "avg": "Hider.BIY"
+      }
+    },
+    "runtime": {
+      "screenshot": "/screenshot/b2c6c02bcec05be68cd78009d57fe380421a933b.jpg",
+      "process": [
+        {
+          "executable": "C:\\malware.exe",
+          "creates_file": [
+            "C:\\WINDOWS\\system32\\hide.sys",
+            "C:\\Documents and Settings\\Administrator\\Local Settings\\Temp\\aut1.tmp",
+            "myialdnwxf",
+            "PIPE\\lsarpc",
+            "C:\\WINDOWS\\system32\\winkill.dll",
+            "C:\\WINDOWS\\system32\\hideprocess.dll",
+            "C:\\Documents and Settings\\Administrator\\Local Settings\\Temp\\aut2.tmp"
+          ],
+          "deletes_file": [
+            "C:\\WINDOWS\\system32\\hide.sys",
+            "C:\\Documents and Settings\\Administrator\\Local Settings\\Temp\\aut1.tmp",
+            "C:\\Documents and Settings\\Administrator\\Local Settings\\Temp\\aut2.tmp"
+          ],
+          "creates_service": [
+            "ialdnwxf - C:\\WINDOWS\\system32\\hide.sys"
+          ],
+          "starts_service": [
+            "ialdnwxf"
+          ]
+        },
+        {
+          "executable": "C:\\WINDOWS\\system32\\svchost.exe",
+          "creates_process": [
+            ""
+          ]
+        },
+        {
+          "executable": "Pid 828"
+        },
+        {
+          "executable": "C:\\WINDOWS\\System32\\svchost.exe",
+          "registry": [
+            {
+              "key": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\WBEM\\CIMOM\\List of event-active namespaces",
+              "value": "NULL"
+            }
+          ],
+          "creates_file": [
+            "C:\\WINDOWS\\system32\\WBEM\\Logs\\wbemcore.log",
+            "C:\\WINDOWS\\system32\\WBEM\\Repository\\$WinMgmt.CFG",
+            "C:\\WINDOWS\\system32\\WBEM\\Logs\\wbemess.log"
+          ],
+          "deletes_file": [
+            "C:\\WINDOWS\\system32\\WBEM\\Logs\\wbemess.lo_"
+          ]
+        },
+        {
+          "executable": "Pid 1040"
+        },
+        {
+          "executable": "Pid 1092"
+        },
+        {
+          "executable": "C:\\WINDOWS\\system32\\spoolsv.exe",
+          "registry": [
+            {
+              "key": "HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Control\\Print\\BeepEnabled",
+              "value": "NULL"
+            },
+            {
+              "key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\EventLog\\System\\Print\\TypesSupported",
+              "value": "7"
+            },
+            {
+              "key": "HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Control\\Print\\Printers\\SymbolicLinkValue",
+              "value": "NULL"
+            },
+            {
+              "key": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Print\\Printers\\DefaultSpoolDirectory",
+              "value": "C:\\WINDOWS\\System32\\spool\\PRINTERS\\\\x00"
+            },
+            {
+              "key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Print\\Providers\\LogonTime",
+              "value": "NULL"
+            }
+          ],
+          "creates_file": [
+            "WMIDataDevice"
+          ]
+        },
+        {
+          "executable": "Pid 1852"
+        },
+        {
+          "executable": "C:\\WINDOWS\\system32\\svchost.exe"
+        },
+        {
+          "executable": "C:\\WINDOWS\\system32\\wbem\\wmiprvse.exe",
+          "creates_file": [
+            "PIPE\\lsarpc"
+          ]
+        }
+      ]
+    },
+    "network": {},
+    "other": {},
+    "raw_pcap": "",
+    "strings": "080904b0\n3, 3, 7, 15\nAutoIt v3 Script: 3, 3, 7, 15\nCompiledScript\nFileDescription\nFileVersion\nStringFileInfo\nTranslation\nVarFileInfo\nVS_VERSION_INFO\n` @$(*\n+~<+^@\n<+*<0|\n00h.xU\n@<00RX\n02Xg!u\n$('''',04\n$0@4#gh\n09XK<$N\n0)b(*l!'\n0CS)`(\n0 H,}'\n\\0\\hLP\n0HtMd&\n\\*/0Lx|\n0MqPo \n$(,0]N\n0p f,Iz-r\n0PvvKo\n0Q-, G\n0rwhGa6\n</ ]$(0ry\n0s0EAa\n0SR/P@v;~\n$0tG8/\n0UV'ZK\n1.1 2004\n14t-~U\n@15D17Pc\n]17Spa\n<1@DARY\n1dfu2G\n1dhl\\N*+\n1j46G#9\n1Q\\Z{0,\n\\1t*S7@\n1|TV.'\n1<y,0a\n1^Z7y&Q\n20k5?Na0\n:2?1db\n2+4_)z\n2!8S\tW\n2./Ai8ZGI\n^2F ^%\n:`2%j6\n2KgjfA\n2LW-(R\n2rz~lG\n2THi_YW`\n2vD7!PD\n\"|2V\"S\n2v(V{KPW\n2XXYlY1\n |<@3|\n3,508\\\n3<bnWu\"\n3(\\<@D\n3!$$f,\n3+-N^t\n3_PZ'?\n3,#u1{\n_4-2t\"\n\\=43D<]X\\\n44c5,q\n={4=6/\n48<<@@@\n48EU<S@\n4!*ACc9\n4at~WC\t\n4-bcu6\n-}4C>Hy\n4,E\\D 9\n4H$8[O\n4hA$QS\n4\t)i.@v\n4`!!PWE\n4*QA.LZ`\n4T0$\t(30\n4t!2|uj\n!4wPPJ\n%`-4Wt\n4xNULLH{o\n4y|%8$(i\n4$}z{8,a\n\\(``5$\n5$0ABI?\n=?543<\n5>?@ABCDEF\n5AU3!EA06phjHq\n5b!pw4\n5FPQ 8PX\n>:|5\\GSZ\n[5H+^ZNC 5\n5i&GFw01\n\"!!-5Put,\n5)R\tRw\n5SyRWR\n5't/\t'\n5tEGt3\n5ts@>|\n5&),tt\n5u hLH\n;<@5?ZD\n !\"##$%&'()6\n6>\"',1\n6@JRJX\n\t6 M$;]j\n7}189Z\n71tnX{\n`7~AH){*\n}7d&K<t\n7etI{N<\n/7G?V G[`sO3m\n7K7IZ-\n7L$wAJGh\n;7.*o#\n84M;M0\n8^888r\n8!9pF \n8,9\"V<\n#.}8H5\n8l Fg=\n('8PWF\n8<RD,g\n8U8qa&\n8UNVW&\n8vwxyz{|}~\n8<W.'<@G&G\\VY\n[8X@tV75uGIxP!\n90/6(;Ka`a%\n9%-4+P\n- 9} 7\n_9b%Ji&\n9-D?NO_START_O\n9eGzLOh\n9iG|Pfp\n;9M.FF\n9M(tHS\n~9&NH!\n,9rYpJ;\n9!S!`!@\n _/9>t\n9(tIFEAB\n9u(vEVS\n#<9w\"L\n9xLdU)\n9<X?\\Z\n)*.}A*\nA0iveP\nA^0Ma_\nA3$-R \nA4C999y%\n'a8] t\nA8|URh)\nA,AD/Rjc \nAa\tjy]\na)Augus0Jul\n}a\tbKaw\tR\n_Abori8l&r\nAdd,O\"l\n aDJNi\nADVAPI32.dll\nadvapig\nAFR\\\tX\na,|G\"0N\nagd;(,\nageBoxW\nAhbcVe<B\nahN0r:t\n?AhSh`\n/A,Ht*\n&a(JDf\nallsig+\na;]lZo\naPCDcM-\naPi2GP0\naQmudty\nasB8P:4\n</assembly>\n      <assemblyIdentity type=\"win32\" name=\"Microsoft.Windows.Common-Controls\" version=\"6.0.0.0\" language=\"*\" processorArchitecture=\"*\" publicKeyToken=\"6595b64144ccf1df\"></assemblyIdentity>\n<assembly xmlns=\"urn:schemas-microsoft-com:asm.v1\" manifestVersion=\"1.0\">\nAt^atYStMstH\nAttbus\n&~A#&Us>\nAVWP3uI\n|/!b{[\n'B(2d%\n@b2rP'\n$--%\"!' \t&,b]6\nB6uyLZ\nB9s u-P\nbad allocationorExitProce\nb :-ajvFDo\nBc?G.7N \n~*B%FRG\nBN,QR,$\n%B??ra\nBrbl<~\nbR?v|2G\n*+Bsssk\nB@T9_XF\nB'W'.v`\n>[@ Bx\nb[x%a}\nBx(ZG!\nByrToWidec\n*\\{&c{\nC2AfCVR'\nC2Ve|=\nC3e]*=t\nc8H}h2r\nCamsK2\n`ccG3?\nch(Pbq\nC.i`UQ~8\n^cknxg\ncKx5\"/\"\nCL]WY+\nc nhted\nCoInitialize\nCOMCTL32.dll\nCOMDLG32.dll\n ComplPe W0\nCoS7O'b-t\nc thre\nctInform1Wf6La\nc_U?S/\nC@Wa%}\nc\t[xN~\nCz;xA-\n|#D78Z\nd7vLoa\nDD4V*{*M\nDDD*G<?\nDEFINE\n<DeO\"cW\n  </dependency>\n  <dependency>\n    </dependentAssembly>\n    <dependentAssembly>\n,d.I]p\n~~(Dkm\n^d~Kt<s\nDl+Ghp\ndM<]@]\nDP@5,!E\nDpgw`p*\nDPH;%at\nD\"qYfU\nDragFinish\n(Ds$,c0\nd=>?#U\nDv5>?ZNv\nd!VisiQ'K\n^d|VttX[A=B\ndwhA}9p\nD<W.'HLOFGhRY\n`dwl|.\n(,dW[ZenEV\n.<+@`e\nE2aB2d\nE6+?5=\n>E69>J\nE.=7eS\nEA06$f&\nE]?A 7\nE-_\t`c\n'E\"dGj\n&@eDH2\n=ehC|A\nE', @K]\nELdhpy.]\nemaXjpW-@vNpp:t@ah\nEN97vC\nEnumProcesses\nEPTV.'TX\nEptxr9\n;er 8tn\n!et]~iR\n&Etj5E\nExitProcess\nE*Z1,i\neZLPt>\n!-F> ,\nF0LTV.'PT\n<\tf1<Cv|\n+&F4_>+\n<;f99t6C;]D\nf*d:hp0N\nFFTm9>\nFH:mm:j\nFhZiF;\nfi}0u{1\nfiOMYLp\nf`j dQ\nF@JviY\nf_k~C bH\n-FKN\\t\n\tF * L,S\nFlushBun\nF&MO\tT\nfN| K to\nf. oLT\nF<rRY9@\n<fSPI\\\n+f.sV;\nFtFc@'V=\nFtpOpenFileW\nfU:uK \nfuZENBi\nF)]x-\\\nFxxOxq\n,F`zl>\n.G^?{+\ng1t5) \nG4bH0J\n~g@:63a\n'g?_7Np,v \nGAe|,J\nGDI32.dll\nG}E,4q\n&GE\"jl\nGetAce\nGetProcAddress\nGetSaveFileNameW\nG'g%\\b\ngh\\#o%I\nGHsOk2\ng(IdD1HL\ngi#r5CS\ngNaSys\nG oX5Q\n]<GoXPT%vY\nGpM\t@#$\ng;RVVPz\n\tG]|S=$\ngXLYu*\nh0!$es\nh2Dg!p\nH|3O a\n,*H4`T~F\nH6OK.TaO\n[h8~hD7D\nH}AU3!EA06\n|h\"C]3\nHCgJJJ\n>HcIjr\n.HeJ;u:$\nh?g.~k\nHhd(k5\nh.h,v \n,[h<i\"\nhJ$]hd\nh[j?s/[\nh<)l?l;\nHLP/gl<W.'pt\nH]L!ZL\nHN*+'L\nhnnar7fw2\n#\\hNUD>\nHPdhlr9\nhrRY9l[\nHt<ht7Nt+nt&\n:<_h=X\n@hx+M\\\n`/ :H#y\n:hyd)K\nhYI0oK\n_hypot\n\\ ;)HZ\n|hzYCss%\ni, 32As\ni7`t 8sV\n%i9'ha\nIArFy''] \nIAX4^H]D\nIBNAsw\nICMP.DLL\n$Id: q\n[[^IeB\ni<g$}fea\nIHLPRJGl\nIJKLMNO\ni$(()K\ni=K%8Q\niksg^bWJ\nImageList_Remove\nIMZWq0\nIN'R{&\nir(jdis\n#i^}RP\niTX\\`dU\n\\*iTX\\y\n$`:i#yF^D\nize;`eh %C\n'J2^9\th\nj~3Pf@bj$\nja20Pn_\njarfwH\n)jAXf;\nJc*M\"K\nj\tdkjJ\n-jGl*#\n(JHDHL\nj@j ^V\njL=QyO\njonbennett Exp $<O\n|[Jp={\n\"Jp[a= \nJ PoPE\nJQu;7.\n!j{ s:\t\nju(TokbLY;\n JWu91\nj XH}XI\n/@j\tz'\njz~RhU\nj,z:VVV\n<<k<' \n**+,-./K0012345678\nk(/`2J11\nK<?3{D\nk_9CP:\nKERNEL32.DLL\nKffH$Z\nk?gV;2HG_k\nKhdv1Az\nKhp@=|\nKIDHL2R\nKI~HEL\n+| KIO\nk.%j?Et\n|KKC((PaA\nK(K.EX\nKkXJ^-!9\nK%lH;Y\nK,lL1m\nKLX0\\3\nk\"py'MaE\nkw'92\"\nK+zWA\t\nL109Pu\n\"L16\\j \nl1^c-N\nl>1'yCm\nL2'J&J\nLb:MCF(7\nl^bU%*\nld?<0O-\nLD8,($\nLD8,R=\n\tLfV=T\n&LhPrC\nLh@,]R\n lhw$foiEc\nLineTo\nl j IU\nLLU)1`\nLMUr(dK6\nLnpzRf\n_ LNS7\nLoadLibraryA\nLoadUserProfileW\n_logb'ynz\nlP#BZ6\nL;_+pLDh7;I\nl}#]pZC\nLQ4/v&\nLQRj#i\nlrFO/f\nL}^S)h!\n=lup\tt?|\n\tL:v8m\nm0n{_k\nm\\{4QVRW\n=m6$ZV\nM9:P`#%m\nm9Q(Rlo\nm{A~%l\nMaqXDIfv\n#%{mBD\nMBdpWLnm\nmCl$\"u\nmd?hpFX\nM d&:Z\nmGUID2A\nM<^g-x\nMHCt)`\n<\\;mHe}\nmId&RaiseEW\n?miss^\nMPR.dll\nmQ6T=0j[\nMRiJRRR\nMs#jcUTF-_\nMulDivWV\nMU<]*TR.[\nmVQ+TX\n\tMWE6@\nMXmr!Q\nNcBl%A\nNDa[n3\nnEv2 #G\n_nextaft\n'NFCJD~\nNF\\s h\nNhK?_L\nnI36>a\nNk/9Hva;<\nNl[(UH\nNn'm@$@D\nNNNmYj\nNNNPTX\nnPv`~p0g&\nN`;$Q$\nN@Sj\"`\n{)?(null\nNVRWba\nN^*Vtc\nN:!]Wvr\nnXru!i\nO3&>fJ82\n,O4T&P\no6u.x*NSi&X\nobC@+c\n.\"oc)<\no C$C,\nO/DBKn\n<o@DHU~\noed&2`\noeGx0.\noFIv71l\n;O.+H/[\n\\O`+hx\noiJ$E4\n-_O'i$V\nole32.dll\nOLEAUT32.dll\nolhelp32S:ph\nO$@N;|\no}n6pJ\nOnHcQTaskh\noOx-6C\n!Opk'1\nopNqwb\nord*GO\n$OrghV#M\no]rPmfW\n%oS[hkc_3\nOU\"@(k;6u\n/OU''N\no;VLuq\noW6qpX\nO<XK4&\n&& P$+\nP}1(Lz,yGM\n:P$*6[\nP&+^6p@\n*p8J\tH~\nP&*#a@\nP\t}(ay\np@B@.3\nPC.OQ*\n(pE`Qo\npft3k_a\nPhjj9f\nPhKU,^\npi|\"J?\nPJVt(9\nPjxPPC\n Pkernel32J\npkpWX#\t(,`px\nP@MF!Q\np#N!69t\npoA4'{@A\nPOMMIT\nPOSIX \np[@PUL\n;P<~ {} qu\nPRQ]*Q\n'PS^;5\nps^acX)\nPSAPI.DLL\n'PST(i\nPT=5.'\n'Pt$TH\nPTX\\`e}C\nPu0pXM\n{+^pvc\nPVsx!/\np@x'6W\n&p\tXK3\np+XKu+\nPXnx3Xl\np)Z7C,y\nP%ZN.`*\n PZN@x\npZR*Nm\t\n}Q:{-.\nQ5W0q\t\nqBVXc@\n]'%q.ce'\n!qcpcR\nQcx*K{\nQemCh\\\nqF?j@P\nqgQJo3\n<^,\tq|hn\n.&Q%j.Zq \nQkkbal\nqN_$Bzp\n]QPt\"P\n|,qQ:$\nQQR$(9\nqr;Q}Y\nqs_DZOFr\n(QTK4K\n.|Q&$U\nQu#gA5n\nQu\tgY/tp=\nQUNICOD\nQ,YBtM\n(qyPSua\nr-%[*1!\nR4CQKjpP\nR,70'8\n[r,AkM\n;.r~(At\nrecogn\n~RegD;Key\n        <requestedExecutionLevel level=\"asInvoker\" uiAccess=\"false\"></requestedExecutionLevel>\n      </requestedPrivileges>\n      <requestedPrivileges>\nrfF I$I\\n\n:RfR7H\n\tr$GI \n rj\\Y~N\nRKSAS?\nRLLRR*#\n(RLXoR_vS\n{\"(%Rn\n:rN-Fb\td\nR\\O1Y%\nRo_/S#!\nR!P\"JR\nrP%Nlp\n'RPQu2@i\nRPWS4t\n}RrTSx1\nrS6'`%\nRt/B0R\nRu_h~)x\n\t! R).V&W\nRVZfb^\n/RW1\\IS\nr <@x \n@/r.;X\nRX``G[\nry.LP`d~V\nRytTX`T\n(S,10CV.'\ns5VppR\n/sbp p0\nSbsV/XK\n@;sCOC\n    </security>\n    <security>\nS=EhOi\n'SF'C[E\n]S;Gs+\"\nSHELL32.dll\nS\"|LI,\nSm`#cM\nSMFDMV9\n`s*! o\nSOc\\ 7X\ns@ Py3\ns qHa4?v[\n?sqTEw\n%sqWsQ\nStnpAe\n<sTqld\nST&xOSm\n).?StxwRY\nSub%CR\nsWow64\n^sX1#3}*\nsZv!r#:w\nT0~1!m;\n`t29t :t\n`|*T4B\nT5o+\",e\nt5q|-i\nt6=ERC\n~t\t;6X\nt%AJ.vv]\n!ta@X'xE\ntBWK.R\nT\\dCU'8\nTDLt~.\ntdTD44\n't\t{*E\n\t];T'e%\n tE8|r\nTFXXu;GX\nthis*dG3!2\n!This program cannot be run in DOS mode.\nth\\L<0\nTHR#<:\nTh$s'Wed\n}t'HuN\n/ .ti%\ntimeGetTime\nTi S0CV(v5\nTJDa(anOzv)R$\ntj(H4D\ntj[q#9Qjr\nT,`M0t\n`tm*lFT\nToOF=2\ntpBRQ.E\nT.'pt;\n#@; tr\ntRJt6J%\n  </trustInfo>\n  <trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v3\">\n=TSj$<\n`t(s) P\n_t*]t%\n(t<t<#\nt-t`pE\n(t|<\"tx<%tt<'tp<$tl<&th<!td<ot`\ntu\"EDi\n)?tu\\q\nTUVWXYZ[\\]^_`abcdefghijklmnop\ntv:# |\n`\tt V\"\nt,vt vn\nT,?]WKmY}\ntx>(@'@\n'\"Tx1r\n<tX\\`\\N*+\nu+\"0oiv\nu\t`3h,|\nU3_nluginD\n;U&3Um\nU6*\\<[tX<\\tT<\nUBT;u0XK\n#u [#C\n[}u+c~3\nUCnePR\nuI@'H+(\nUnkJwn e<o\nuo$C2&\n<UOs y\nu@P/AH\nUQPXY]Y[\nUSER32.dll\nUSERENV.dll\n.UserObje\nuTM!<l\nUU3xUUe\nuwZNx 3\n)]u!x?\n+uxY-]|V\n*\t#uZG\nV ^0~>\nV0X448iZ\nV%3\tw\"\n..VA{3\n[v#)\"Ak#\nv@d'\\*(\nVD=5m8xr\nVERB)q\nVerQueryValueW\nVERSION.dll\nVf@3nQ^\nvgnAy!z`R(/\nv@hbI\"\n,>VhkS\n@'V&iaZvT: %\nVietmX\nVirtualAlloc\nVirtualFree\nVirtualProtect\nv,$}ja\nv,joC^pTT\n(V+jWS\n+$vKHkO\nV\\#KMI\n#VPJ<Gk\nVQK@\\E\n>VrGGG1\nVrGgMru\n/!vrr;5\n:VSP|$\n@vT25K\n!Vu@:/!\nVVhU\\ \n;Vv\tN+0\n#V:X+h6\nw~-$!&\n(<W.',0\nW4l8l*\n/W6Ll/\n:w97\\e\nw9 Cm}0i\n?W$Ao}~E\nW\"@Cpl\nwD[@j*\n W*E'K\n+w#?;h4\nWININET.dll\nWINMM.dll\nwj`\"kE\nW!j@ w\n\\WK?2/(E\nWkHu\\q\n|w;l\"kC\nWMFtu@\nWNetGetConnectionW\nWPxE^RRe\n\"WPz\t! W9\t\nw($Qca6f\nW~Q@j[\nW\t&QJBP\n,WQPU7\nW@RW*-\nW\"SC%_qQs\nWSOCK32.dll\nWwH`|5\nWWWW.7e\n) \">#x-\nX1?jd:\n\\X2bGtx\nx2B.I<\nx$4Jp]\nx6k$:y+\nX]^7*+/\nX*;`7~\n(,x\taA\n\tXAb~;\n,`XA tX\"c6\n[XfM&A\n+?\tXg`\nxGic#]5\n<,=%xh\nxJ%cv*\n<xJ<Fc\nxKx&d4\nxlA&h-\nXlBp3x\nxl\\P@<\nX(=nQR\n;/&xo)\nxp1&(9\nXPTPSW\nXQPETP3[\nX u^Mlo\n@xVR&h\nxY;sQx!@\ny0bK'C?BW\nY4:]'ps\n`!y<4v\nydXD4 \nyE`qt?\n_y(? o-\nyp`0PL<\nyp9|skV{\n\"YsO#,:B\nyv<\\uEFU\nY^%W\t9g\n`YY&4XJ\n'YZ^=<\nz4R1$.'\nZ6&*XKm;\n^=zaad\nzBay!2\nZCWUUkH\nzFcQAE\nZH+i^ES\nz_H$n-\n?+z]I+\nZj E</&\n/ZjkkcWO\nZm//RoR\nZ\tN| 7\n>Z$plF\n}ZpUz7\n.:*zV9\nZwqt<-\n"
+  },
+  "fields": {
+    "static.timestamp": [
+      "2011-09-11T18:12:22.000Z"
+    ],
+    "analysis_date": [
+      "2013-10-28T16:42:20.000Z"
+    ]
+  }
+}

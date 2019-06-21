@@ -1,0 +1,60 @@
+{
+  "_source": {
+    "raw_pcap": "/../../processed_reports/06e5fa970dd26c6b2900ceea0e65709d6f7f5640_raw_pcap.txt",
+    "timestamp": "2002-08-01T04:57:54.000Z",
+    "language": "",
+    "dr_web": "Win32.HLLP.Iparmor.35858",
+    "microsoft_security_essentials": "Virus:Win32/Ipamor.B",
+    "dns": 0,
+    "rising": "Trojan.Win32.Ipamor.a",
+    "k7": "Virus ( 0040f5931 )",
+    "strings": "/../../processed_reports/06e5fa970dd26c6b2900ceea0e65709d6f7f5640_strings.txt",
+    "frisk": "W32/Amorba.A",
+    "malwarebytes": "no_virus",
+    "virusblokada": "Virus.Facepalm.21207",
+    "alwil": "Ipamor:Zbot-SPE [Trj]:Ipamor-C:Win32:Ipamor:Win32:Ipamor-C",
+    "fortinet": "W32/Amorba.A",
+    "sha1": "06e5fa970dd26c6b2900ceea0e65709d6f7f5640",
+    "authentium": "W32/Amorba.MYZU-5819",
+    "winsock_dns": 0,
+    "trend_micro": "PE_IPAMOR.C-O",
+    "services_started": 0,
+    "files_deleted": 3,
+    "cat": "W32.Ipamor.C",
+    "analysis_date": "2015-03-08T21:28:53.000Z",
+    "symantec": "W32.HLLP.Ipamor",
+    "processes_created": 5,
+    "ad_aware": "MemScan:Trojan.Downloader.JQJJ",
+    "arcabit": "MemScan:Trojan.Downloader.JQJJ",
+    "ikarus": "Virus.Win32.Ipamor.d",
+    "eset": "Win32/Ipamor.D virus",
+    "360_safe": "no_virus",
+    "microworld": "MemScan:Trojan.Downloader.JQJJ",
+    "file_type": "PE32 executable for MS Windows (GUI) Intel 80386 32-bit",
+    "clamav": "Win.Trojan.Upatre-68",
+    "bullguard": "MemScan:Trojan.Downloader.JQJJ",
+    "flows_tcp": 0,
+    "mcafee": "W32/Ipamor.d",
+    "registries": 4,
+    "mutexes_created": 0,
+    "files_created": 10,
+    "avira": "BDS/Neteyes.A",
+    "services_created": 0,
+    "emsisoft": "MemScan:Trojan.Downloader.JQJJ",
+    "http_post": 0,
+    "sophos": "W32/Ipamor-B",
+    "kaspersky": "Virus.Win32.Ipamor.d",
+    "grisoft": "Win32/Ipamor",
+    "ca": "Win32/HLLP.Ipamor.D",
+    "http_get": 0,
+    "f_secure": "MemScan:Trojan.Downloader.JQJJ"
+  },
+  "fields": {
+    "analysis_date": [
+      "2015-03-08T21:28:53.000Z"
+    ],
+    "timestamp": [
+      "2002-08-01T04:57:54.000Z"
+    ]
+  }
+}

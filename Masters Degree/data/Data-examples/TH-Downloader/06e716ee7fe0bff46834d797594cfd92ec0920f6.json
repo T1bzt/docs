@@ -1,0 +1,60 @@
+{
+  "_source": {
+    "raw_pcap": "/../../processed_reports/06e716ee7fe0bff46834d797594cfd92ec0920f6_raw_pcap.txt",
+    "timestamp": "2014-08-27T14:41:00.000Z",
+    "language": "",
+    "dr_web": "no_virus",
+    "microsoft_security_essentials": "Backdoor:MSIL/Bladabindi",
+    "dns": 0,
+    "rising": "no_virus",
+    "k7": "no_virus",
+    "strings": "/../../processed_reports/06e716ee7fe0bff46834d797594cfd92ec0920f6_strings.txt",
+    "frisk": "no_virus",
+    "malwarebytes": "Trojan.Kryptik.MSIL",
+    "virusblokada": "no_virus",
+    "alwil": "Malware-gen:Evo-gen [Susp]:Win32:Malware-gen",
+    "fortinet": "MSIL/Kryptik.BPA!tr",
+    "sha1": "06e716ee7fe0bff46834d797594cfd92ec0920f6",
+    "authentium": "W32/MSIL_Troj.DL.gen!Eldorado",
+    "winsock_dns": 0,
+    "trend_micro": "no_virus",
+    "services_started": 0,
+    "files_deleted": 1,
+    "cat": "no_virus",
+    "analysis_date": "2015-04-27T08:53:43.000Z",
+    "symantec": "no_virus",
+    "processes_created": 3,
+    "ad_aware": "Trojan.GenericKD.2316418",
+    "arcabit": "Trojan.GenericKD.2316418:Trojan.GenericKD.2317643",
+    "ikarus": "Trojan.MSIL.Zapchast",
+    "eset": "MSIL/Packed.Confuser.P suspicious",
+    "360_safe": "",
+    "microworld": "no_virus",
+    "file_type": "PE32 executable for MS Windows (GUI) Intel 80386 32-bit",
+    "clamav": "no_virus",
+    "bullguard": "Trojan.GenericKD.2316418",
+    "flows_tcp": 0,
+    "mcafee": "no_virus",
+    "registries": 1,
+    "mutexes_created": 4,
+    "files_created": 9,
+    "avira": "TR/Krypt.857979",
+    "services_created": 0,
+    "emsisoft": "Trojan.GenericKD.2316418",
+    "http_post": 0,
+    "sophos": "no_virus",
+    "kaspersky": "no_virus",
+    "grisoft": "MSIL7.BXJF",
+    "ca": "no_virus",
+    "http_get": 0,
+    "f_secure": "Trojan.GenericKD.2316418"
+  },
+  "fields": {
+    "analysis_date": [
+      "2015-04-27T08:53:43.000Z"
+    ],
+    "timestamp": [
+      "2014-08-27T14:41:00.000Z"
+    ]
+  }
+}
