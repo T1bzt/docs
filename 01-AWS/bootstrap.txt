@@ -1,0 +1,42 @@
+Amazon Linux 2 AMI - t2.medium
+
+#GIT
+yum install git -y
+
+#JAVA
+wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jdk-8u131-linux-x64.tar.gz"
+tar -xzvf jdk-8u131-linux-x64.tar.gz
+rm -rf jdk-8u131-linux-x64.tar.gz
+
+# Configure JAVA_HOME
+sudo vim ~/.bashrc
+
+export JAVA_HOME=~/jdk1.8.0_131
+export JRE_HOME=~/jdk1.8.0_131/jresni
+export PATH=$PATH:~/jdk1.8.0_131/bin:/~/jdk1.8.0_131/jre/bin
+
+source ~/.bashrc 
+java -version
+
+#NODE.js
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
+. ~/.nvm/nvm.sh
+nvm install 6.9.5
+
+# MAVEN
+sudo wget http://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-maven.repo -O /etc/yum.repos.d/epel-apache-maven.repo
+sudo sed -i s/\$releasever/6/g /etc/yum.repos.d/epel-apache-maven.repo
+sudo yum install -y apache-maven
+mvn --version
+
+# BOWER and GULP
+npm install -g bower
+npm install gulp-cli -g
+npm install gulp -D
+
+
+#TVAULT VAULT
+git clone https://github.com/tmobile/t-vault.git
+cd tvault
+./build_tvault.sh --build all --package tar
+sudo ./install_tvault.sh
