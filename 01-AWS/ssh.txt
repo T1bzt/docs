@@ -1,0 +1,19 @@
+#adding pem file to SSH agent 
+ssh-add -K security.pem
+ssh -A ec2-user@1.1.1.1
+
+#windows
+# 1. PuttiGen, open, save private key
+# 2. Pageant - add key
+# 3. Putty - allow ssh agent
+
+#AmazonLinux2
+#install apache
+sudo yum update -y
+sudo yum install httpd
+sudo service httpd start
+#run server on startup
+sudo chkconfig httpd on
+
+# for more information about DNS
+dig www.linuxacademy.com
