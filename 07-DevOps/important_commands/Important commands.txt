@@ -1,1 +1,4 @@
 Set-ItemProperty -Path "HKLM:\Software\Microsoft\Windows\CurrentVersion\Policies\System" -Name "EnableLUA" -Value "0"
+
+	Use this command to synchronize an s3 bucket and a local folder. Much better then cp - isn't it?
+aws s3 synch s3://<bucket_name> <path/to/local/folder>
