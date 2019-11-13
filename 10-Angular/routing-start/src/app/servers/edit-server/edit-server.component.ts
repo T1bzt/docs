@@ -25,7 +25,7 @@ export class EditServerComponent implements OnInit, CanComponentDeactivate {
     this.route.queryParams
       .subscribe(
         (queryParams: Params) => {
-          this.allowEdit = queryParams['allowEdit'] === '1' ? true : false
+          this.allowEdit = queryParams['allowEdit'] === '1' ? true : false;
         }
       );
     this.route.fragment.subscribe();
