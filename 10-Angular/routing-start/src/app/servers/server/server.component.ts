@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { ServersService } from '../servers.service';
-import {ActivatedRoute, Params, Router} from '@angular/router';
+import {ActivatedRoute, Data, Params, Router} from '@angular/router';
 
 @Component({
   selector: 'app-server',
@@ -16,14 +16,20 @@ export class ServerComponent implements OnInit {
               private router: Router) { }
 
   ngOnInit() {
-    const id = +this.route.snapshot.params['id']; //a plusz annyit csinal h az id amit megkapunk szamkent lesz kezelve nem stringkent
+    this.route.data
+      .subscribe(
+        (data: Data) => {
+          this.server = data['server'];
+        }
+      );
+    /*const id = +this.route.snapshot.params['id']; //a plusz annyit csinal h az id amit megkapunk szamkent lesz kezelve nem stringkent
     this.server = this.serversService.getServer(1);
     this.route.params
       .subscribe(
         (params: Params) => {
           this.server = this.serversService.getServer(+params['id']); //itt is atkonvertalja
         }
-      );
+      );*/
   }
 
   onEdit(){
