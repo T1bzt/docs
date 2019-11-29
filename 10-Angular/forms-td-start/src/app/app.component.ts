@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, ElementRef} from '@angular/core';
+import {NgForm} from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -6,7 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  defaultQuestion = 'pet';
+
   suggestUserName() {
     const suggestedName = 'Superuser';
+  }
+
+  onSumbit(form: NgForm){
+    console.log(form);
   }
 }
