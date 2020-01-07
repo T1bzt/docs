@@ -1,2 +1,0 @@
-Nie som si uplne isty ci to ma byt tu "komplet.doc" a "pp.pdf", ci to nema byt nahodou v priecinku METÓDY A PROSTRIEDKY PRE
-VÝKONNÉ PARALELNÉ VÝPOÈTY (ktory momentalne neexistuje). Nejaky FEI-kar ktory vie kde by sa to malo spravne zaradit (ak je to potrebne spravne zaradit) keby sa k tomu mohol vyjadrit. Napriklad na IRC chate #hlavny (irc.intrak.tuke.sk) alebo v priecinku ### UPLOAD ### zanechat vzkaz v podobe .txt dokumentu.
