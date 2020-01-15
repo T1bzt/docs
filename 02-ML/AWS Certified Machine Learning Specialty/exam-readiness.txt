@@ -1,0 +1,11 @@
+done 1.	LA videos
+2.	LA practice exam 90% +
+3.  Whizlabs 90% +
+4.  quizlet - https://quizlet.com/406445837/aws-mls-c01-flash-cards/
+5.  LA - flash cards
+6.	Community slack pinned staff.
+7.	SageMaker docs (900 pages ?!)  - algorithm chapter.
+8.  AWS Practice exam and questions provided
+9.	Sagemaker FAQS
+10. Udemy videos
+11. ACG videos

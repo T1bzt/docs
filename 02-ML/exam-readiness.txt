@@ -1,0 +1,14 @@
+
+1 - done .	LA videos 
+2.	LA practice exam 90%+
+3.	Community slack pinned staff.
+4.	SageMaker docs (900 pages ?!)  - algorithm chapter.
+5.	Sagemaker FAQS
+6.	Example questions w links
+Whizlabs free questions
+https://quizlet.com/406445837/aws-mls-c01-flash-cards/
+7.	Practice exam (AWS Provided)
+8.	Copy practice exam question to google and fins similar
+9.	Youtube ML vid list
+10.	Big Data Cert Prep
+11. Training by AWS: https://www.aws.training/Account/Transcript/Current
