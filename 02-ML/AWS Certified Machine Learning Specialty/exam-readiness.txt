@@ -1,5 +1,6 @@
 done 1.	LA videos
-2.	LA practice exam 90% +
+2.	LA practice exam 90%
+2.1 AWS Provided Course
 3.  Whizlabs 90% +
 4.  quizlet - https://quizlet.com/406445837/aws-mls-c01-flash-cards/
 5.  LA - flash cards
