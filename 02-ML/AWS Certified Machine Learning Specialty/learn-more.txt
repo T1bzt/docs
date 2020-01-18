@@ -2,3 +2,4 @@ inference pipelines
 sagemaker and step functions
 feature *
 kinesis *
+L1, L2 regularization
