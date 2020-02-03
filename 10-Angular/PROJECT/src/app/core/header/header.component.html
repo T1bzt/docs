@@ -1,0 +1,42 @@
+<nav class="navbarnavbar-default">
+  <div class="container-fluid">
+      <ul class="navnavbar-nav">
+        <li class="main"><a routerLink="/">Recipe Book</a></li>
+        <li routerLinkActive="active"><a routerLink="/recipes">Recipes</a></li>
+        <li routerLinkActive="active"><a routerLink="/shopping-list">Shopping List</a></li>
+        <ng-template [ngIf]="!authService.isAuthenticated()">
+          <li><a routerLink="/signup">Register</a></li>
+          <li><a routerLink="/signin">Login</a></li>
+        </ng-template>
+
+        <li><a style="cursor: pointer;" (click)="onLogout()" *ngIf="authService.isAuthenticated()">Logout</a></li>
+        <li class="dropdown" style="float:right" *ngIf="authService.isAuthenticated()" appDropdown>
+          <a style="cursor: pointer" class="dropdown-toggle" role="button">Manage <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a style="cursor: pointer" (click)="onSaveData()">Save Data</a></li>
+            <li><a style="cursor: pointer" (click)="onFetchData()">Fetch Data</a></li>
+          </ul>
+        </li>
+      </ul>
+
+    <!--<div class="navbar-default">
+      &lt;!&ndash;<ul class="navnavbar-nav">
+        <li><a href="#">Recipes</a></li>
+        <li><a href="#">Shopping List</a></li>
+      </ul>
+      <ul class="navnavbar-navnavbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" role="button">Manage <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Save Data</a></li>
+            <li><a href="#">Fetch Data</a></li>
+          </ul>
+        </li>
+      </ul>&ndash;&gt;
+    </div>-->
+  </div>
+</nav>
+
+
+
+
