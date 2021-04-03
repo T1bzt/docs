@@ -9,3 +9,10 @@ aws learning library
 Test the knowledge:
 1 test on whizlabs
 aws practice exam
+
+
+--> federations
+--> on-prem networking
+--> route53
+--> cognito
+tematikusan felosztani a whizlabs kerdeseket
