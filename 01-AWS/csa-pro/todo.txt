@@ -1,18 +1,28 @@
 LA courses 
 Whizlabs
+	test 1 done
 Deep's mail
-Reddit
-aws sample questions
+Reddit	done 1x
+aws sample questions	done 1x
 aws exam readiness
 aws learning library
+
+all tests on linux academy
+all tips for exams
+all attachments and resources to read
+
 -------------
 Test the knowledge:
 1 test on whizlabs
 aws practice exam
 
 
---> federations
---> on-prem networking
+
+TOPIC FOR REVIEW:
 --> route53
 --> cognito
-tematikusan felosztani a whizlabs kerdeseket
+--> aurora
+--> sql databases
+--> transit gateway
+--> load balancing
+--> Quantum Ledger Database and Managed Blockchain
