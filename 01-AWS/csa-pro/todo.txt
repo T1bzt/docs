@@ -18,11 +18,13 @@ aws practice exam
 
 
 
-TOPIC FOR REVIEW:
---> route53
+TOPICS FOR REVIEW:
+--> route53 routing policies
 --> cognito
 --> aurora
 --> sql databases
 --> transit gateway
 --> load balancing
 --> Quantum Ledger Database and Managed Blockchain
+--> EMR
+--> interface endpoints
