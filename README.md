@@ -6,7 +6,7 @@ You don’t say:<br>
  
 You dont start there. You say: <br>
 
-> Im gonna lay this brick as perfetly as brick can be laid. There will not be one brick on the face of the earth  thas going to be laid better than this brick, that im gonna lay in these next ten minutes.
+> Im gonna lay this brick as perfetly as brick can be laid. There will not be one brick on the face of the earth that's going to be laid better than this brick, that im gonna lay in these next ten minutes.
 
 And you do that every single day, and soon you have a wall...
 
